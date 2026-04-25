@@ -1,41 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420">
     <defs>
         <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#dbeafe"/>
-            <stop offset="100%" stop-color="#eef4ff"/>
+            <stop offset="0%" stop-color="#fde6ed"/>
+            <stop offset="100%" stop-color="#fff5f7"/>
+        </linearGradient>
+        <linearGradient id="bigheart" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ec407a"/>
+            <stop offset="100%" stop-color="#c2185b"/>
+        </linearGradient>
+        <linearGradient id="smallheart" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f8bbd0"/>
+            <stop offset="100%" stop-color="#ec407a"/>
         </linearGradient>
     </defs>
     <rect width="520" height="420" rx="24" fill="url(#bg)"/>
 
-    <!-- Trophy -->
-    <g transform="translate(180,80)">
-        <rect x="60" y="170" width="40" height="14" rx="3" fill="#0f6cf5"/>
-        <rect x="40" y="184" width="80" height="10" rx="3" fill="#0a52c2"/>
-        <path d="M50 30 L110 30 L108 110 Q80 140 52 110 Z" fill="#ff7a00"/>
-        <path d="M50 30 L110 30 L108 50 L52 50 Z" fill="#ffa54a"/>
-        <rect x="74" y="140" width="12" height="34" fill="#ff7a00"/>
-        <path d="M50 40 Q20 50 30 90 Q35 100 50 95" stroke="#ff7a00" stroke-width="6" fill="none"/>
-        <path d="M110 40 Q140 50 130 90 Q125 100 110 95" stroke="#ff7a00" stroke-width="6" fill="none"/>
-        <text x="80" y="90" font-family="-apple-system, Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle">★</text>
+    <!-- Big interlocking heart -->
+    <g transform="translate(150,80) scale(1.5)">
+        <path d="M70 130 C30 100 14 75 14 55 C14 33 28 22 42 22 C52 22 62 28 70 40 C78 28 88 22 98 22 C112 22 126 33 126 55 C126 75 110 100 70 130 Z" fill="url(#bigheart)"/>
+        <path d="M40 50 C40 42 44 38 50 38" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.45"/>
     </g>
 
-    <!-- Dumbbell -->
-    <g transform="translate(60,260)">
-        <rect x="0" y="10" width="14" height="40" rx="3" fill="#1a1f2c"/>
-        <rect x="14" y="20" width="80" height="20" rx="4" fill="#4a5260"/>
-        <rect x="94" y="10" width="14" height="40" rx="3" fill="#1a1f2c"/>
+    <!-- Floating small hearts -->
+    <g transform="translate(60,80)">
+        <path d="M15 28 C5 22 1 16 1 11 C1 6 5 3 9 3 C12 3 14 5 15 8 C16 5 18 3 21 3 C25 3 29 6 29 11 C29 16 25 22 15 28 Z" fill="url(#smallheart)"/>
     </g>
 
-    <!-- Running shoe (simple) -->
-    <g transform="translate(330,300)">
-        <path d="M0 30 Q10 0 50 5 L80 10 Q120 16 130 35 L130 50 L0 50 Z" fill="#0f6cf5"/>
-        <path d="M30 30 L40 18 M50 30 L58 16 M70 30 L76 18" stroke="#ffffff" stroke-width="3"/>
-        <ellipse cx="20" cy="50" rx="14" ry="6" fill="#0a52c2"/>
-        <ellipse cx="110" cy="50" rx="14" ry="6" fill="#0a52c2"/>
+    <g transform="translate(420,60)">
+        <path d="M20 38 C8 30 2 22 2 14 C2 8 7 4 12 4 C16 4 19 7 20 11 C21 7 24 4 28 4 C33 4 38 8 38 14 C38 22 32 30 20 38 Z" fill="url(#smallheart)"/>
+    </g>
+
+    <g transform="translate(60,310)">
+        <path d="M18 32 C7 26 2 20 2 13 C2 7 7 4 11 4 C14 4 17 6 18 9 C19 6 22 4 25 4 C29 4 34 7 34 13 C34 20 29 26 18 32 Z" fill="url(#smallheart)" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(440,330)">
+        <path d="M14 24 C5 19 1 14 1 9 C1 5 5 3 8 3 C11 3 13 5 14 7 C15 5 17 3 20 3 C23 3 27 5 27 9 C27 14 23 19 14 24 Z" fill="url(#smallheart)" opacity="0.8"/>
     </g>
 
     <!-- Decorative dots -->
-    <circle cx="40" cy="60" r="6" fill="#ff7a00" opacity="0.6"/>
-    <circle cx="480" cy="80" r="8" fill="#0f6cf5" opacity="0.4"/>
-    <circle cx="460" cy="380" r="10" fill="#ff7a00" opacity="0.4"/>
+    <circle cx="40" cy="200" r="5" fill="#f59e0b" opacity="0.6"/>
+    <circle cx="480" cy="220" r="6" fill="#c2185b" opacity="0.4"/>
+    <circle cx="100" cy="380" r="4" fill="#f59e0b" opacity="0.5"/>
+    <circle cx="380" cy="380" r="5" fill="#ec407a" opacity="0.45"/>
+
+    <!-- Sparkles -->
+    <g fill="#f59e0b" opacity="0.85">
+        <path d="M250 30 L252 36 L258 38 L252 40 L250 46 L248 40 L242 38 L248 36 Z"/>
+        <path d="M460 280 L462 285 L467 287 L462 289 L460 294 L458 289 L453 287 L458 285 Z"/>
+    </g>
 </svg>
