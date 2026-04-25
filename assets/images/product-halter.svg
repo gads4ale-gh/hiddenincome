@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+    <rect width="320" height="200" fill="#f5f7fb"/>
+    <g transform="translate(40,80)">
+        <rect x="0" y="10" width="20" height="50" rx="4" fill="#1a1f2c"/>
+        <rect x="20" y="22" width="14" height="26" fill="#4a5260"/>
+        <rect x="34" y="30" width="170" height="10" fill="#6b7280"/>
+        <rect x="206" y="22" width="14" height="26" fill="#4a5260"/>
+        <rect x="220" y="10" width="20" height="50" rx="4" fill="#1a1f2c"/>
+        <text x="120" y="80" font-family="-apple-system, Arial, sans-serif" font-size="14" font-weight="700" fill="#0f6cf5" text-anchor="middle">Treino em casa</text>
+    </g>
+</svg>

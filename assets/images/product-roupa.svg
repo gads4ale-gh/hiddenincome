@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+    <rect width="320" height="200" fill="#f5f7fb"/>
+    <g transform="translate(80,30)">
+        <path d="M50 10 L100 30 L130 50 L120 70 L100 60 L100 140 L60 140 L60 60 L40 70 L30 50 L60 30 Z" fill="#0f6cf5"/>
+        <path d="M50 10 L60 30 L80 35 L100 30 L110 10 Q80 22 50 10 Z" fill="#0a52c2"/>
+        <circle cx="80" cy="80" r="14" fill="#fff"/>
+        <text x="80" y="86" font-family="-apple-system, Arial, sans-serif" font-size="14" font-weight="800" fill="#ff7a00" text-anchor="middle">★</text>
+    </g>
+</svg>

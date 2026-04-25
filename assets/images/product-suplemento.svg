@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+    <rect width="320" height="200" fill="#f5f7fb"/>
+    <g transform="translate(110,30)">
+        <rect x="10" y="10" width="80" height="20" rx="4" fill="#1a1f2c"/>
+        <rect x="0" y="28" width="100" height="110" rx="6" fill="#ff7a00"/>
+        <rect x="0" y="50" width="100" height="50" fill="#fff"/>
+        <text x="50" y="78" font-family="-apple-system, Arial, sans-serif" font-size="16" font-weight="800" fill="#ff7a00" text-anchor="middle">WHEY</text>
+        <text x="50" y="94" font-family="-apple-system, Arial, sans-serif" font-size="10" font-weight="600" fill="#1a1f2c" text-anchor="middle">PROTEIN</text>
+        <text x="50" y="128" font-family="-apple-system, Arial, sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">900g</text>
+    </g>
+</svg>

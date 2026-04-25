@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+    <rect x="4" y="6" width="40" height="36" rx="6" fill="#fff4e6"/>
+    <text x="24" y="32" font-family="-apple-system, Arial, sans-serif" font-size="22" font-weight="800" fill="#ff7a00" text-anchor="middle">R$</text>
+    <circle cx="36" cy="14" r="5" fill="#0f6cf5"/>
+    <path d="M33 14 L35 16 L39 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
